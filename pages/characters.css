@@ -1,0 +1,50 @@
+@font-face{
+    font-family: 'FonteLogo';
+    src: url("../src/assets/fonts/eras-bold-itc.ttf");
+}body{
+    background-image: url('../src/assets/statusPersonagens/background.jpg');
+    background-size: cover;
+}.navbar{
+    font-weight: bolder;
+    font-family: 'FonteLogo', sans-serif;
+    text-transform: uppercase;
+}.col-8{
+    background-color: #ffffff;
+}h1{
+    font-size: 25pt;
+    font-weight: bolder;
+    font-family: 'FonteLogo', sans-serif; 
+}h3{
+    font-size: 18pt;
+    font-weight: bolder;
+    font-family: 'FonteLogo', sans-serif; 
+}.img-weapon{
+    background-color: #FFF;
+    opacity: 70%;
+    cursor: pointer; 
+}.img-weapon:hover{
+    opacity: 100%;
+    background-color: transparent;
+    transition: all 0.1s;
+}.iconesPersonagens{
+    opacity: 70%;
+    cursor: pointer; 
+}.iconesPersonagens:hover{
+    opacity: 100%;
+    background-color: transparent;
+    transition: all 0.1s;
+}#secondRow{
+    min-height: 400px;
+}#segundaColuna{
+    box-shadow: 5px 5px 5px #0000007c;
+}#quintaColuna{
+    box-shadow: 5px 5px 5px #0000007c;
+}#imgCharacters{
+    width: 250px;
+    height: 416px;
+    background-repeat: no-repeat;
+}#charactersNames{
+    font-family: 'FonteLogo', sans-serif; 
+}#footer{
+    border-top: 1px solid #2d343694;
+}

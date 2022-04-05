@@ -1,0 +1,55 @@
+@font-face{
+    font-family: 'FonteLogo';
+    src: url("/src/assets/fonts/eras-bold-itc.ttf");
+}
+body{
+    background-color: #C68642;
+}.navbar{
+    text-transform: uppercase;
+    background-color: #0655aa;
+    font-weight: bold;
+    border-radius: 5px;
+}.row{
+    background-color: #FFF;
+    text-align: center;
+    margin: 0%;
+}h1{
+    font-size: 20pt;
+    background-color: #D9C9AD;
+    font-family: 'FonteLogo', sans-serif; 
+}.bt-açoes, .bt-ataques, .bt-apagar{
+    font-size: 10pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 88px;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 5px 5px;
+    outline: 0 none;
+    border: 0 none;
+    cursor: pointer;
+}.bt-isolado{
+    font-size: 10pt;
+    margin: 0px;
+    height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px 5px;
+    outline: 0 none;
+    border: 0 none;
+    cursor: pointer;
+    width: 448px;
+}#receberCombos{
+    width: 85.6%;
+    margin-left: 3%;
+}#itemMenu{
+   transition: 1s; 
+}#itemMenu:hover{
+    background-color: #06465e;
+    opacity: 50%;
+}#interface{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.63);
+}#controlSelect{
+    margin-left: 3%;
+    width: 32%;
+}

@@ -1,0 +1,71 @@
+@font-face{
+    font-family: 'FonteLogo';
+    src: url("/src/assets/fonts/eras-bold-itc.ttf");
+}body{
+    background-color: #DFE6E9;
+    background-image: url('src/assets/statusPersonagens/background.jpg');
+    background-size: cover;
+}.navbar{
+    font-weight: bold;
+    font-family: 'FonteLogo', sans-serif;
+    text-transform: uppercase;
+}.col-8{
+    background-color: #FFF;
+}h1{
+    font-size: 25pt;
+    font-weight: bold;
+    font-family: 'FonteLogo', sans-serif; 
+}h2{
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: 'FonteLogo', sans-serif; 
+}.bt-açoes, .bt-ataques, .bt-apagar{
+    font-size: 10pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 91px;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 5px 5px;
+    outline: 0 none;
+    border: 0 none;
+    cursor: pointer;
+}.bt-isolado{
+    font-size: 7.5pt;
+    margin: 0px;
+    height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px 5px;
+    outline: 0 none;
+    border: 0 none;
+    cursor: pointer;
+    width: 91px;
+}.img-weapon{
+    font-weight: bold;
+    background-color: #FFF;
+    opacity: 70%;
+    border: 0 none;
+    outline: none;
+    cursor: pointer; 
+}.img-weapon:hover{
+    opacity: 100%;
+    background-color: transparent;
+    transition: all 0.1s;
+}.img-weapon:focus{
+    opacity: 100%
+}#icon-weapon{
+    width: 110px;
+    height: 130px;
+    background-repeat: no-repeat;
+    border-radius: 9px 9px;
+}#glossario{
+    font-family: 'FonteLogo', sans-serif;    
+    font-size: 14pt;
+}#cardGlossario{
+    font-size: 8pt;
+}#segundaColuna, #quintaColuna{
+    box-shadow: 5px 5px 5px #0000007c;
+}.col-12{
+    border-top: 1px solid #2d343694;
+}
